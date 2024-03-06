@@ -1,0 +1,182 @@
+/* NAME: BAKARE AWAWU (JMK) */
+/* PROJECT: ORDER SUMMARY */
+/* DATE: 11/12/2024 */
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  background-color:  hsl(257, 40%, 49%);
+  background-image: url(../images/bg-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.container{
+  text-align: center; 
+}
+.logo{
+  text-align: left;
+}
+.logo img {
+  width: 100px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  margin-left: 50px;
+}
+.mockup img{
+  width: 280px;
+}
+.descrip{
+ text-align: center;
+}
+.descrip h2{
+  width: 210px;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  line-height: 1.4;
+  text-align: center;
+}
+.descrip p{
+  color: rgb(218, 217, 217);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.5;
+  width: 240px;
+  margin: 0 auto;
+}
+
+button{
+  width: 150px;
+  font-size: 10px;
+  color: hsl(257, 40%, 49%);
+  padding: 5px;
+  border-radius: 12px;
+  border: none;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+button:hover{
+  background-color: hsl(300, 69%, 71%);
+  color: white;
+}
+.social_media{
+  width: 100px;
+  display: flex;
+  justify-content: center; 
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.socials{
+  width: 25px;
+  margin: 5px;
+  border: 2px solid white;
+  border-radius: 50%;p
+  padding: 5px;  
+}
+
+footer .attribution{
+  font-size: 10px;
+  color: white;
+}
+footer .attribution a{
+  color: hsl(300, 69%, 71%);
+}
+
+
+@media only screen and (min-width: 1440px){
+  body{
+    width: 100%;
+    background-color:  hsl(257, 40%, 49%);
+    background-image: url(../images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .logo{
+    margin-left: 100px;
+  }
+  .logo img {
+    width: 200px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+  .mockup img{
+    width: 700px;
+  }
+  .desk{
+    display: flex;
+    justify-content: center;  
+  }
+  .descrip{
+    text-align: left;
+    margin-left: 40px;
+  }
+  .descrip h2{
+    width: 400px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    font-weight: 800;
+    text-align: left; 
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    line-height: 1.4;
+  }
+  .descrip p{
+    width: 480px;
+    color: rgb(218, 217, 217);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    text-align: left;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  button{
+    width: 150px;
+    font-size: 16px;
+    color: hsl(257, 40%, 49%);
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 5px 5px 5px rgb(94, 92, 92);
+    margin-bottom: 100px;
+    transition:  0.5s;
+  }
+  button:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+  }
+  .social_media{
+    width: 200px;
+    display: flex;
+    justify-content: center; 
+    margin: 0 auto;
+    margin-bottom: 100px;
+    margin-right: 0;
+  }
+  .socials{
+    width: 50px;
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 5px;  
+  }
+
+  footer .attribution{
+    font-size: 16px;
+  }
+  
+}
